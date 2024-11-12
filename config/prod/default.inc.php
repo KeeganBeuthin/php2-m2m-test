@@ -70,10 +70,12 @@ return [
     'logger.options' => [],
 
     'kinde' => [
-        'HOST' => 'YOUR_KINDE_HOST',
-        'REDIRECT_URL' => 'http://localhost:8888/callback',
+        'HOST' => 'https://burntjam2.kinde.com',
+        'REDIRECT_URL' => 'http://localhost:8888/external/kinde/callback.php',
         'LOGOUT_REDIRECT_URL' => 'http://localhost:8888',
-        'CLIENT_ID' => 'YOUR_KINDE_CLIENT_ID',
-        'CLIENT_SECRET' => 'YOUR_KINDE_CLIENT_SECRET',
+        'CLIENT_ID' => '06cbf413f400473d97686f3b98d503ba',
+        'CLIENT_SECRET' => 'yspR04NPTcUsOcKh8K3PMeFUeGGlUL3XnDBFjax0cbHv61FAbUeC',
+        'M2M_CLIENT_ID' => 'f14b28dee23b4fa497cb99bbbddac9a1',
+        'M2M_CLIENT_SECRET' => 'YN8Kb5TvPmsrVIfiZZmAM3ajQgujudRwsWiUSkcoq16nt8jQTy',
     ]
 ];
